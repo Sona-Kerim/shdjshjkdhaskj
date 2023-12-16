@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.main{
+     /* width: 100%; faiz ile olcu vermek */
+    width: 100vw;   /*vieport ile olcu vermek */
+    height: 100vh;
+    background-color: red;
+}
+p{
+    font-size: 50px;
+}
+
+@media only screen and (max-width:900px){
+    .main{
+        background-color: green;
+
+    }
+    p{
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+    p{
+        background-color: blue;
+        height: 50vh;
+        font-size: 15px;
+
+    }
+} *
+
+
